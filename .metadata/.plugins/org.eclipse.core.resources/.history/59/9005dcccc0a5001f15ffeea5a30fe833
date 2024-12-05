@@ -1,0 +1,10 @@
+package in.ashokit.beans;
+
+public class BookService {
+
+	
+	private IBookDao iBookDao;
+	public BookService(IBookDao iBookDao) {
+		this.iBookDao = iBookDao;
+	}
+}
