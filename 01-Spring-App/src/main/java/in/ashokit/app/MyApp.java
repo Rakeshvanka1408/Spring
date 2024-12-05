@@ -12,7 +12,8 @@ public class MyApp {
 		
 				DieselEngine bean = ctxt.getBean(DieselEngine.class);
 				bean.diesel();
-				
+
+
 		}
 	
 }
