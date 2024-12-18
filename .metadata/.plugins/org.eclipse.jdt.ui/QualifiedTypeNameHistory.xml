@@ -6,7 +6,14 @@
     <fullyQualifiedTypeName name="in.ashokit.beans.Car"/>
     <fullyQualifiedTypeName name="in.ashokit.beans.Bill"/>
     <fullyQualifiedTypeName name="java.io.File"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="org.springframework.jdbc.core.RowMapper"/>
     <fullyQualifiedTypeName name="in.ashokit.beans.BookService"/>
+    <fullyQualifiedTypeName name="in.ashokit.repo.EmployeeRepo"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.Table"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.Id"/>
+    <fullyQualifiedTypeName name="in.ashokit.entity.User"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="in.ashokit.service.userService"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="jakarta.transaction.Transactional"/>
 </qualifiedTypeNameHistroy>

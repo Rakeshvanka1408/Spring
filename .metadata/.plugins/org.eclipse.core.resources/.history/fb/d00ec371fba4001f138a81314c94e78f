@@ -1,7 +1,0 @@
-package in.ashokit.beans;
-
-public interface IBookDao {
-	
-	public void saveBook(int bid,String bName, double bPrice);
-	
-}
