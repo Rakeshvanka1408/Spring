@@ -1,22 +1,25 @@
-2024-12-13 12:26:10,619 [restartedMain] INFO  in.ashokit.Application                             - Starting Application using Java 17.0.11 with PID 16840 (D:\SBMS\Spring\20-SBMS-WebMvc-app\target\classes started by vanka in D:\SBMS\Spring\20-SBMS-WebMvc-app)
-2024-12-13 12:26:10,624 [restartedMain] INFO  in.ashokit.Application                             - No active profile set, falling back to 1 default profile: "default"
-2024-12-13 12:26:10,677 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2024-12-13 12:26:10,678 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2024-12-13 12:26:11,712 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port 8080 (http)
-2024-12-13 12:26:11,723 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["http-nio-8080"]
-2024-12-13 12:26:11,725 [restartedMain] INFO  o.apache.catalina.core.StandardService             - Starting service [Tomcat]
-2024-12-13 12:26:11,725 [restartedMain] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/10.1.33]
-2024-12-13 12:26:11,777 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
-2024-12-13 12:26:11,777 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 1099 ms
-2024-12-13 12:26:11,906 [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping              - Adding welcome page template: index
-2024-12-13 12:26:12,245 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer                 - LiveReload server is running on port 35729
-2024-12-13 12:26:12,265 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Starting ProtocolHandler ["http-nio-8080"]
-2024-12-13 12:26:12,294 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat started on port 8080 (http) with context path '/'
-2024-12-13 12:26:12,305 [restartedMain] INFO  in.ashokit.Application                             - Started Application in 2.076 seconds (process running for 3.13)
-2024-12-13 12:26:12,309 [restartedMain] INFO  in.ashokit.service.Logging_msg                     - the method started
-2024-12-13 12:26:12,309 [restartedMain] INFO  in.ashokit.service.Logging_msg                     - this method ended
-2024-12-13 12:27:35,917 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
-2024-12-13 12:27:35,919 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.b.w.embedded.tomcat.GracefulShutdown           - Commencing graceful shutdown. Waiting for active requests to complete
-2024-12-13 12:27:35,920 [tomcat-shutdown] INFO  o.apache.coyote.http11.Http11NioProtocol           - Pausing ProtocolHandler ["http-nio-8080"]
-2024-12-13 12:27:36,026 [tomcat-shutdown] INFO  o.s.b.w.embedded.tomcat.GracefulShutdown           - Graceful shutdown complete
-2024-12-13 12:27:36,027 [RMI TCP Connection(4)-127.0.0.1] INFO  o.apache.coyote.http11.Http11NioProtocol           - Stopping ProtocolHandler ["http-nio-8080"]
+2024-12-27 15:21:39,928 [restartedMain] INFO  in.ashokit.Application                             - Starting Application using Java 17.0.11 with PID 17112 (D:\SBMS\Spring\20-SBMS-WebMvc-app\target\classes started by vanka in D:\SBMS\Spring\20-SBMS-WebMvc-app)
+2024-12-27 15:21:39,933 [restartedMain] INFO  in.ashokit.Application                             - No active profile set, falling back to 1 default profile: "default"
+2024-12-27 15:21:39,988 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-27 15:21:39,988 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-27 15:21:40,922 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port 8080 (http)
+2024-12-27 15:21:40,932 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-27 15:21:40,933 [restartedMain] INFO  o.apache.catalina.core.StandardService             - Starting service [Tomcat]
+2024-12-27 15:21:40,933 [restartedMain] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-27 15:21:40,981 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2024-12-27 15:21:40,981 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 993 ms
+2024-12-27 15:21:41,073 [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping              - Adding welcome page template: index
+2024-12-27 15:21:41,338 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer                 - LiveReload server is running on port 35729
+2024-12-27 15:21:41,352 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Starting ProtocolHandler ["http-nio-8080"]
+2024-12-27 15:21:41,367 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat started on port 8080 (http) with context path '/'
+2024-12-27 15:21:41,377 [restartedMain] INFO  in.ashokit.Application                             - Started Application in 1.842 seconds (process running for 2.579)
+2024-12-27 15:21:41,380 [restartedMain] INFO  in.ashokit.service.Logging_msg                     - the method started
+2024-12-27 15:21:41,380 [restartedMain] INFO  in.ashokit.service.Logging_msg                     - this method ended
+2024-12-27 15:22:14,713 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-27 15:22:14,714 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet                  - Initializing Servlet 'dispatcherServlet'
+2024-12-27 15:22:14,718 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet                  - Completed initialization in 3 ms
+2024-12-27 18:40:46,440 [RMI TCP Connection(45)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2024-12-27 18:40:46,471 [RMI TCP Connection(45)-127.0.0.1] INFO  o.s.b.w.embedded.tomcat.GracefulShutdown           - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-27 18:40:46,476 [tomcat-shutdown] INFO  o.apache.coyote.http11.Http11NioProtocol           - Pausing ProtocolHandler ["http-nio-8080"]
+2024-12-27 18:40:46,573 [tomcat-shutdown] INFO  o.s.b.w.embedded.tomcat.GracefulShutdown           - Graceful shutdown complete
+2024-12-27 18:40:46,575 [RMI TCP Connection(45)-127.0.0.1] INFO  o.apache.coyote.http11.Http11NioProtocol           - Stopping ProtocolHandler ["http-nio-8080"]
