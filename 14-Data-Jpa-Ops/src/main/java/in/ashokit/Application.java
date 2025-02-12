@@ -14,7 +14,7 @@ public class Application {
 				= SpringApplication.run(Application.class, args);
 		userService bean = ctxt.getBean(userService.class);
 		// bean.saveUser();
-		//bean.findAllUser();
+		bean.findAllUser();
 		//bean.deleteById();
 		//bean.deleteAll();
 		 //bean.findByCountry("UK");
@@ -26,7 +26,7 @@ public class Application {
 		//bean.updateUserHql();
 		//bean.updateUseSql();
 		//bean.deleteUserHql();
-		bean.deleteUserSql();
+		//bean.deleteUserSql();
 	}
 
 }

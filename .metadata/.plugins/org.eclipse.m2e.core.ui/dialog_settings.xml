@@ -56,6 +56,7 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="24-json-app"/>
 			<item value="Creating-pdf-From-DB-Data"/>
 			<item value="Insert_Text_Data_Into_DB"/>
 			<item value="08-Spring-JDBC-App"/>

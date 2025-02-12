@@ -60,6 +60,10 @@
 			text-align: center;
 			margin-top: 10px;
 		}
+
+		.error {
+			color: red;
+		}
 	</style>
 </head>
 
@@ -76,19 +80,30 @@
 			<div class="mb-3">
 				<label for="name" class="form-label">Name</label>
 				<input type="text" id="name" th:field="*{name}" class="form-control" placeholder="Enter your full name"
-					required>
+					required />
+				<input type="hidden" th:field="*{uid}" />
+				<td>
+					<p th:if="${#fields.hasErrors('name')}" th:errorclass="error" th:errors="*{name}" />
+				</td>
+
 			</div>
 
 			<div class="mb-3">
 				<label for="email" class="form-label">Email</label>
 				<input type="email" id="email" th:field="*{email}" class="form-control"
 					placeholder="Enter your email address" required>
+				<td>
+					<p th:if="${#fields.hasErrors('email')}" th:errorclass="error" th:errors="*{email}" />
+				</td>
 			</div>
 
 			<div class="mb-3">
 				<label for="phno" class="form-label">Phone Number</label>
 				<input type="number" id="phno" th:field="*{phno}" class="form-control"
 					placeholder="Enter your phone number" required>
+				<td>
+					<p th:if="${#fields.hasErrors('phno')}" th:errorclass="error" th:errors="*{phno}" />
+				</td>
 			</div>
 
 			<div class="d-grid gap-2">

@@ -1,4 +1,4 @@
-GitRepositoriesView.GitDirectories=D\:\\SBMS\\.git;
-GitRepositoriesView.GitDirectories.relative=D\:\\SBMS\\.git;
+GitRepositoriesView.GitDirectories=D\:\\JRTP\\.git;D\:\\SBMS\\.git;
+GitRepositoriesView.GitDirectories.relative=D\:\\JRTP\\.git;D\:\\SBMS\\.git;
 core_autoIgnoreDerivedResources=false
 eclipse.preferences.version=1
