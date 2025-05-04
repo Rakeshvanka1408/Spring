@@ -87,7 +87,7 @@ public class ProductRestController {
 			}
 		
 	}
-		@GetMapping("/product/{id}")
+		@GetMapping("/product/{productId}")
 		public ResponseEntity<ApiResponse<List<ProductDto>>> product(@PathVariable Long productId) {
 			
 			ApiResponse<List<ProductDto>> response = new ApiResponse<>();
