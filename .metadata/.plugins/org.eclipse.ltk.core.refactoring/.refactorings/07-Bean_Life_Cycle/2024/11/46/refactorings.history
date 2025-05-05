@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Copy element &apos;Bean.xml&apos; to &apos;08-Spring-JDBC-App/src/main/resources&apos;&#x0D;&#x0A;- Original project: &apos;07-Bean_Life_Cycle&apos;&#x0D;&#x0A;- Destination element: &apos;08-Spring-JDBC-App/src/main/resources&apos;&#x0D;&#x0A;- Original element: &apos;Bean.xml&apos;" description="Copy file" destination="=08-Spring-JDBC-App/src\/main\/resources=/maven.pomderived=/true=/=/optional=/true=/" element1="src/main/resources/Bean.xml" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1731565188390" units="0" version="1.0"/>
-</session>
